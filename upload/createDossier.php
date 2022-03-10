@@ -14,7 +14,7 @@
     }
 
     #create_folder {
-      margin-top: -140px;
+      margin-top: -47px;
 
     }
   </style>
@@ -93,7 +93,13 @@
 
       <div class="modal-body">
         <p>Nom du dossier
-          <input type="text" name="folder_name" id="folder_name"  value="<?php echo $vnom; ?>" disabled />
+
+          <input type="text" name="folder_name" id="folder_name"  value="<?php 
+             $searchEspace = " ";
+            $replaceEspace = "_";
+            $outputeEspace = str_replace($searchEspace, $replaceEspace,$vnom,$count);
+          echo $outputeEspace.'_'.$vipp; 
+          ?>" disabled />
         </p>
         <br />
         <input type="hidden" name="action" id="action" />
