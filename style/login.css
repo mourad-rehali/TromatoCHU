@@ -1,0 +1,153 @@
+
+
+
+
+/* login */
+
+.connexion{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+     padding-top: 65px;
+     padding-bottom: 25px;
+   
+}
+
+#conn_resultat{
+    padding-top: 30px;
+
+}
+
+.connexion h3{
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: -46px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #1d8183;
+}
+
+
+
+
+.form-control{
+    width: 300px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.capPos{
+   position: relative;
+   left: 30%;
+   margin-bottom: 10px;
+  
+}
+
+
+.deconnecter{
+    background-color: rgb(212, 120, 120);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-family: "Montserrat", sans-seri;
+    
+   
+}
+
+.deconnecter:hover{
+    background-color: indianred;
+        font-size: 11px;
+
+}
+
+
+
+/* inscription */
+
+#btnConnectet{
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+
+    
+
+
+}
+
+.connexion table tr td{
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+
+}
+.connexion table tr td label{
+    margin-right: 10px;
+}
+
+.btnValider{
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+#captcha{
+    margin-top: 22px;
+    border-radius: 5px;
+}
+
+.link_inscription{
+    text-align: center;
+    margin-top: 20px;
+}
+.link_inscription a{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+
+    
+}
+
+.link_inscription a:hover{
+    color: grey;
+    font-size: 15px;
+
+}
+
+
+/* verification */
+
+#code_ver{
+    position: relative;
+    left: -15px;
+}
+
+#rowPlace{
+    position: relative;
+    left: 7.5px;
+}
+
+
+/****************** Tablite *****************/
+@media (min-width: 768px) and (max-width: 991.98px)  {
+
+
+    #btnConnectet {
+        height: 45px;
+        width: 250px;
+    }
+  
+
+}
+
+
+/****************** Mobile *****************/
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}

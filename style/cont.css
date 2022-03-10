@@ -1,0 +1,662 @@
+/****************** Desktop *****************/
+
+@media screen and (min-width: 992px) {
+
+    .glass_mobile{
+        display: none;
+
+    }
+    .mobile1{
+        display: none;
+    }
+    .article2{
+        display: none;
+
+    }
+#aa{
+    width: 5%;
+}
+
+
+.photos{
+    text-align: center;
+}
+.photos img{
+    width: 70%;
+    border-radius: 10px;
+}
+
+.titel_home{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(75, 75, 75);
+
+}
+
+.cont_home{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cont_home p{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+}
+
+.cont_home ul{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+
+.cont_home ul li{
+    font-size: 16px;
+    list-style-type: disc;
+    padding-top: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sou_cont_home {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.sou_cont_home  p{
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.btn1{
+    background: linear-gradient(to right top,
+    #559aa7, #95cfdd);
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+
+}
+
+.btn1:hover{
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3));
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+   
+
+}
+
+.btns{
+   display: flex;
+   justify-content: center;
+   margin-top: 14px;
+}
+
+.btns a{
+    text-decoration: none;
+
+   
+}
+
+.btns #res{
+    position: relative;
+    left: 30px;
+}
+
+.thcenter{
+    text-align: center;
+}
+
+.placepoi{
+    width: 30px;
+  
+}
+
+
+
+/* Resultat */
+
+.connexion table{
+    width: 900px;
+    font-family: "Montserrat", sans-serif;
+    
+
+}
+
+.connexion h1{
+    font-size: 30px;
+}
+.connexion table tr th,td{
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.connexion table tr td{
+    font-size: 15.5px;
+    
+    
+}
+
+#inscription{
+    width: 558px;
+}
+
+#inscription tr td{
+   text-align: left;
+    
+    
+}
+
+/* Voir Resultat */
+
+.connexion p{
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.genome p{
+    width: 50%;
+     font-size: 14px;
+     width: 100%;
+}
+
+.connexion h5{
+   position: relative;
+   right: 196px;
+   font-family: "Montserrat", sans-serif;
+   font-size: 17px;
+   margin-bottom: 20px;
+
+    
+}
+
+
+
+.tablePerson{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-left: 90px;
+    margin-bottom: 20px;
+}
+
+.tablePerson table tr td{
+    text-align: left;
+    width: 50px;
+
+}
+
+#TitelPerson{
+    right:  135px;
+}
+
+#resultTitel{
+    right:  183px;
+}
+
+/* listDesUtilisateur */
+
+
+
+
+#btnUser img{
+    width: 23px;
+}
+/* listDesAdmin */
+
+#supprimer{
+    width: 21px;
+}
+#Ajouter{
+    width: 24px;
+}
+#ajouterLink{
+    width: 50px;
+}
+#imgActiv{
+    width: 21px;
+}
+
+
+
+#negative{
+    background-color: rgb(33, 172, 107);
+    color: #fff;
+}
+#pusitive{
+    background-color: rgb(187, 36, 57);
+    color: #fff;
+}
+
+
+.btnsearch{
+    border: none; 
+    
+}
+.btnsearch img{
+   width: 25px;
+   position: relative;
+   top:-28px;
+   left: 218px;
+    
+}
+#inputsearch{
+    width: 250px;
+}
+
+.pusSearch{
+    position: relative;
+    left: 350px;
+    top: -45px;
+
+    margin-bottom: -54px;
+}
+
+#btnExporter{
+    width: 150px;
+    height: 40px;
+}
+}
+
+.searchPlace{
+    position: relative;
+    top: 120px;
+    left: 431px;
+    background-color: rgb(224, 224, 224);
+    width: 35px;
+    height: 35px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.searchPlace img{
+    width: 23px;
+
+    
+}
+
+/****************** Tablite *****************/
+@media (min-width: 768px) and (max-width: 991.98px)  {
+    .glass_mobile{
+        display: none;
+
+    }
+    .mobile1{
+        display: none;
+    }
+
+    .article2{
+        display: none;
+
+    }
+
+/*--------------------Home----------------------*/
+
+#aa{
+    width: 5%;
+}
+
+
+.photos{
+    text-align: center;
+}
+.photos img{
+    width: 70%;
+    border-radius: 10px;
+}
+
+.titel_home{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(75, 75, 75);
+
+}
+
+.cont_home{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cont_home p{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+}
+
+.cont_home ul{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+
+.cont_home ul li{
+    font-size: 15px;
+    list-style-type: disc;
+    padding-top: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sou_cont_home {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.sou_cont_home  p{
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.btn1{
+    background: linear-gradient(to right top, #559aa7, #95cfdd);
+    color: rgb(255, 255, 255);
+    width: 210px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+
+}
+
+.btn1:hover{
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3));
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+   
+
+}
+
+.btns{
+   display: flex;
+   justify-content: center;
+   margin-top: 14px;
+}
+
+.btns a{
+    text-decoration: none;
+
+   
+}
+
+.btns #res{
+    position: relative;
+    left: 30px;
+}
+
+.thcenter{
+    text-align: center;
+}
+
+.placepoi{
+    width: 30px;
+  
+}
+
+
+#inscription{
+    width: 400px;
+}
+
+
+#inscription tr td{
+    text-align: left;
+}
+
+    /*----------- Resulte ------------------*/
+
+    p{
+        font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+    }
+    .connexion table {
+        width: 700px;
+    }
+
+    .connexion table tr th,td{
+        text-align: center;
+        
+    }
+
+
+    .connexion h5 {
+        position: relative;
+        right: 196px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    #TitelPerson{
+        
+       right: 140px;
+    }
+
+    #resultTitel {
+        right: 183px;
+    }
+
+
+    #tablesize{
+        position: relative;
+        left: 150px;
+    }
+
+    .placepoi{
+        width: 100px;
+    }
+    .tdplace{
+        width: 180px;
+    }
+
+    #tablesize tr td{
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .connexion h1{
+        font-size:19px;
+    }
+ 
+
+
+}
+
+
+/****************** Mobile *****************/
+
+
+
+@media (max-width: 576px){ 
+
+
+        /*--------------------Home----------------------*/
+      .glass{
+          display: none;
+      }
+      
+       
+        body {
+            width: 570px;}
+        
+        .photos{
+            text-align: center;
+        }
+        .photos img {
+            vertical-align: middle;
+            width: 90%;
+            border-style: none;
+        }
+        
+        .titel_home{
+            text-align: center;
+            font-size: 19px;
+            font-weight: 600;
+            padding-top: 40px;
+            padding-bottom: 35px;
+            font-family: "Montserrat", sans-serif;
+            color: rgb(75, 75, 75);
+        
+        }
+        
+        .cont_home{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        .cont_home p{
+            font-size: 15px;
+            font-family: "Montserrat", sans-serif;
+            text-align: justify;
+        }
+        
+        .cont_home ul{
+            padding-top: 10px;
+            padding-bottom: 20px;
+            margin-left: 50px;
+        }
+        
+        .cont_home ul li{
+            font-size: 15px;
+            list-style-type: disc;
+            padding-top: 5px;
+            font-family: "Montserrat", sans-serif;
+        }
+        
+        .sou_cont_home {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        .sou_cont_home  p{
+            font-size: 16px;
+            padding-top: 20px;
+        }
+        
+        .btn1{
+            background: linear-gradient(to right top, #559aa7, #95cfdd);
+            color: rgb(255, 255, 255);
+            width: 210px;
+            height: 45px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+        
+        
+        }
+        
+        .btn1:hover{
+            background: linear-gradient(to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.3));
+            color: rgb(90, 90, 90);
+            font-size: 15px;
+           
+        
+        }
+        
+        .btns{
+           display: flex;
+           justify-content: center;
+           margin-top: 14px;
+        }
+        
+        .btns a{
+            text-decoration: none;
+        
+           
+        }
+        
+        .btns #res{
+            position: relative;
+            left: 30px;
+        }
+        
+        .thcenter{
+            text-align: center;
+        }
+        
+        .placepoi{
+            width: 30px;
+          
+        }
+        
+        
+        #inscription{
+            width: 400px;
+        }
+        
+        
+        #inscription tr td{
+            text-align: left;
+        }
+        
+
+        .glass_mobile{
+            width:95%;
+            background: url(../img/Arriére-Plan.png);
+            border-radius: 15px;
+
+            transform: translate(2.5%);
+            margin-top: 20px;
+         
+        }
+        #formsize{
+            width:450px;
+        }
+        .connexion{
+            padding-top: 20px;
+        }
+     
+        #table1 tr th,td{
+            text-align:center;
+        }
+
+        .connexion h3{
+            margin-top: 20px;
+        }
+
+        #titel_result{
+            font-size: 18px;
+            padding-top: 20px;
+        }
+        #rst{
+            color: rgb(21, 98, 100);
+            padding-top:10px;
+
+           
+        }
+
+       
+
+}

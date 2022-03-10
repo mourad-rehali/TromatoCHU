@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background: linear-gradient(to right top,
+            #65dfc9, #6cdbeb); */
+            background: url("../img/Arriére-Plan.png");
+}
+
+
+.glass {
+    background: white;
+    background: linear-gradient(to right bottom,
+            rgba(235, 235, 235, 0.7),
+            rgba(190, 190, 190, 0.3));
+    border-radius: 15px;
+    backdrop-filter: blur(2rem);
+
+
+
+
+}
+
+.glass_1{
+    background: white;
+    background: linear-gradient(to right bottom,
+            rgba(235, 235, 235, 0.7),
+            rgba(190, 190, 190, 0.3));
+    border-radius: 15px;
+    backdrop-filter: blur(2rem);
+
+}
+
+
+
+.espace{
+    height: 40px;
+}
+
+@media (max-width: 576px){
+    .glass_1{
+        width:95%;
+        background: white;
+        background: linear-gradient(to right bottom,
+                rgba(235, 235, 235, 0.7),
+                rgba(190, 190, 190, 0.3));
+        border-radius: 15px;
+        backdrop-filter: blur(2rem);
+        transform: translate(2.5%);
+        margin-top: 25px;
+    }
+
+    
+
+
+
+    
+    
+
+ }
